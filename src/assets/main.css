@@ -9,6 +9,21 @@
 @import "../components/card/card.css";
 @import "../components/input/input.css";
 
+:root {
+  /* Color */
+  /* Primitive */
+  --blue-500: #1e88e5;
+  --gray-500: #757575;
+  --red-500: #e53935;
+  --green-500: #43a047;
+
+  /* Semantic */
+  --primary-color: var(--blue-500);
+  --secondary-color: var(--gray-500);
+  --danger-color: var(--red-500);
+  --success-color: var(--green-500);
+}
+
 /* Global styles */
 body {
   font-family: "Arial", sans-serif;
