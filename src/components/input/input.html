@@ -1,0 +1,15 @@
+<div class="input-group">
+  <label for="{{id}}" class="input-label {{labelClass}}">{{label}}</label>
+  <input
+    id="{{id}}"
+    type="{{type}}"
+    class="input {{sizeClass}} {{variantClass}}"
+    placeholder="{{placeholder}}"
+    value="{{value}}"
+    {{requiredAttr}}
+    {{disabledAttr}}
+    {{readonlyAttr}}
+    data-testid="input"
+  />
+  <span class="input-error-message {{errorClass}}">{{errorMessage}}</span>
+</div>

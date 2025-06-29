@@ -1,0 +1,13 @@
+/* Main CSS file for Storybook components */
+
+/* Import component styles */
+@import "../components/button/button.css";
+@import "../components/input/input.css";
+
+/* Global styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}

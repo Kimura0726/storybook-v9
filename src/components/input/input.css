@@ -1,0 +1,118 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-label {
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.input-label.required::after {
+  content: " *";
+  color: #e53935;
+}
+
+.input {
+  font-family: "Arial", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #1e88e5;
+  box-shadow: 0 0 0 2px rgba(30, 136, 229, 0.2);
+}
+
+.input:disabled {
+  background-color: #f5f5f5;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.input:readonly {
+  background-color: #f9f9f9;
+  cursor: default;
+}
+
+/* サイズバリエーション */
+.input-small {
+  font-size: 12px;
+  padding: 6px 12px;
+  height: 32px;
+}
+
+.input-medium {
+  font-size: 14px;
+  padding: 8px 16px;
+  height: 40px;
+}
+
+.input-large {
+  font-size: 16px;
+  padding: 12px 20px;
+  height: 48px;
+}
+
+/* バリアントスタイル */
+.input-default {
+  border-color: #ccc;
+}
+
+.input-success {
+  border-color: #4caf50;
+}
+
+.input-success:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.input-error {
+  border-color: #e53935;
+}
+
+.input-error:focus {
+  border-color: #e53935;
+  box-shadow: 0 0 0 2px rgba(229, 57, 53, 0.2);
+}
+
+.input-warning {
+  border-color: #ff9800;
+}
+
+.input-warning:focus {
+  border-color: #ff9800;
+  box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.2);
+}
+
+/* エラーメッセージ */
+.input-error-message {
+  font-size: 12px;
+  margin-top: 4px;
+  min-height: 16px;
+  display: none;
+}
+
+.input-error-message.show {
+  display: block;
+}
+
+.input-error-message.error {
+  color: #e53935;
+}
+
+.input-error-message.warning {
+  color: #ff9800;
+}
+
+.input-error-message.success {
+  color: #4caf50;
+}
