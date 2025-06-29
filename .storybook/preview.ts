@@ -1,7 +1,6 @@
 /** @type { import('@storybook/html-vite').Preview } */
-import "../src/components/button/button.css";
-import "../src/components/card/card.css";
-import "../src/components/input/input.css";
+import "../src/assets/main.css";
+
 const preview = {
   parameters: {
     controls: {

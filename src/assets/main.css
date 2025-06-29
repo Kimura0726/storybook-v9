@@ -1,7 +1,12 @@
 /* Main CSS file for Storybook components */
 
+/* Import Bootstrap CSS */
+/* WARNING:原則編集しない */
+@import "./bootstrap.css";
+
 /* Import component styles */
 @import "../components/button/button.css";
+@import "../components/card/card.css";
 @import "../components/input/input.css";
 
 /* Global styles */
